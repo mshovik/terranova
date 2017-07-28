@@ -44,13 +44,14 @@ class App extends Component {
         <div className="App-border"> 
         </div>  
         <div className="App-body">
-          {/* <form action="search.java"> */}
+          <form action="search.java">
           <Entry 
             onClick={() => this.handleClick()}
           />
           <div className="Search-button">
               <input type="submit" value="SEARCH" />
           </div>
+          </form>
         </div>
         <div className="App-footer">
           <div className="Credits">

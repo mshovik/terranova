@@ -49,9 +49,12 @@ input {
 input[type=text] {
   border-radius: 15px;
   font-family: LatoThinItalic;
-  height: 25px;
+  height: 15px;
   text-align: center;
   width: 60%;
+  padding: 10px;
+  border: solid 1px #dcdcdc;
+  transition: box-shadow 0.3s, border 0.3s;
 }
 
 input[type=submit] {
