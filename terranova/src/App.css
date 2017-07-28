@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+
+.App-border {
+  background-color: #E24845;
+  height: 4px;
+  left: 0px;
+  position: absolute;
+  top: 200px;
+  width: 100%;
+}
+
+.App-footer {
+  background-color: #D8F3F8;
+  bottom: 0px;
+  height: 50px;
+  padding: 10px;
+  position: absolute;
+  width: 100%;
+}
+
+.App-header {
+  background-color: #A3DCE7;
+  color: white;
+  height: 160px;
+  padding: 20px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 100px;
+}
+
+.Credits {
+  color: black;
+  font-size: 10px;
+}
+
+.Intro {
+  font-size: 20px;
+}
+
+.Title {
+  font-family: Lato;
+  font-size: 80px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(360deg); }
+  to { transform: rotate(0deg); }
+}
+
+@font-face {
+  font-family: Lato;
+  src: url("Lato-Black.ttf");
+}
