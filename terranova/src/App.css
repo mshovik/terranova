@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+.App-body {
+  font-size: 20px;
+  padding-top: 100px;
+}
+
 .App-border {
   background-color: #E24845;
   height: 4px;
@@ -21,7 +26,7 @@
 }
 
 .App-header {
-  background-color: #A3DCE7;
+  background-color: #6FB7C4; 
   color: white;
   height: 160px;
   padding: 20px;
@@ -37,8 +42,30 @@
   font-size: 10px;
 }
 
-.Intro {
-  font-size: 20px;
+input {
+  outline: none;
+}
+
+input[type=text] {
+  border-radius: 15px;
+  font-family: LatoThinItalic;
+  height: 25px;
+  text-align: center;
+  width: 60%;
+}
+
+input[type=submit] {
+  background-color: #6FB7C4;
+  border-radius: 15px;
+  color: white;
+  font-family: LatoRegular;
+
+}
+
+input[type=submit]:hover {
+    background-color: #D8F3F8;
+    color: black;
+
 }
 
 .Title {
@@ -54,4 +81,14 @@
 @font-face {
   font-family: Lato;
   src: url("Lato-Black.ttf");
+}
+
+@font-face {
+  font-family: LatoThinItalic;
+  src: url("Lato-ThinItalic.ttf");
+}
+
+@font-face {
+  font-family: LatoRegular;
+  src: url("Lato-Regular.ttf");
 }
