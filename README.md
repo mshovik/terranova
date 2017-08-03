@@ -1,2 +1,0 @@
-# terranova
-Travel web app. 
